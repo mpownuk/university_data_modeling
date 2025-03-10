@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SKY_ADVENTURE" id="2DAB0B4E-768F-2A5D-C5DE-CCC5950CDADD" version="3.5">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-09 20:39:51 UTC</createdTime>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2DAB0B4E-768F-2A5D-C5DE-CCC5950CDADD</designId>
+</OSDM_Design>

@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBEFDFD5-AACC-973C-4E57-D6B4BCED580C" name="Lot">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-09 20:45:41 UTC</createdTime>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<engineerTo>
+<item key="89EAE634-7F2C-34B3-D2FA-FBDFE86EF217" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_LOTU" id="DEEB99AA-98FC-9E34-E089-B2E7F1CDDB35">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:21:17 UTC</createdTime>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<engineerTo>
+<item key="89EAE634-7F2C-34B3-D2FA-FBDFE86EF217" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_REZERWACJI" id="1C0A1997-70D9-0034-2589-ABFC7CBAB2AE">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 08:17:17 UTC</createdTime>
+<generatorID>F51F2E23-CB20-C889-5D8F-9C3DF1110E93</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<engineerTo>
+<item key="89EAE634-7F2C-34B3-D2FA-FBDFE86EF217" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0E4422CA-5EDE-B5F5-687C-75CF7AF368A3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_BALONU" id="2649520A-4416-E073-44B1-3531B8B21792">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:06:45 UTC</createdTime>
+<generatorID>46E9E55C-A89F-1AAE-11CF-D66C926D12D3</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<engineerTo>
+<item key="89EAE634-7F2C-34B3-D2FA-FBDFE86EF217" value="true"/>
+</engineerTo>
+<referedAttribute>423380C0-9055-0909-F78C-387CA2A90516</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PILOTA" id="B8ACA994-280A-961A-F8FC-A5D469FB9C36">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:10:29 UTC</createdTime>
+<generatorID>FBE499D8-2C6B-F4D6-E591-47EFD9A3585C</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<engineerTo>
+<item key="89EAE634-7F2C-34B3-D2FA-FBDFE86EF217" value="true"/>
+</engineerTo>
+<referedAttribute>C588D4B3-F8D3-AC1F-E524-BB1250D3473C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CZAS_TRWANIA" id="EB6D2E34-792A-FBD2-E2CB-41038C8FE786">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:21:34 UTC</createdTime>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<engineerTo>
+<item key="89EAE634-7F2C-34B3-D2FA-FBDFE86EF217" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MAKSYMALNA_WYSOKOŚĆ" id="E681963A-EE26-6F6C-8336-0AC18A117366">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:21:50 UTC</createdTime>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<engineerTo>
+<item key="89EAE634-7F2C-34B3-D2FA-FBDFE86EF217" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WARUNKI_POGODOWE" id="1648DE92-144D-BD16-1FEA-4B19B6E60117">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:22:14 UTC</createdTime>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<engineerTo>
+<item key="89EAE634-7F2C-34B3-D2FA-FBDFE86EF217" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B78790B6-00F1-9362-F09B-A170A7DE7FCB" name="Lot PK">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:21:29 UTC</createdTime>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<engineerTo>
+<item key="89EAE634-7F2C-34B3-D2FA-FBDFE86EF217" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DEEB99AA-98FC-9E34-E089-B2E7F1CDDB35</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

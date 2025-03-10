@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0139E044-83FF-A7EC-CCFA-18CC20C677A2" name="Rezerwacja">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>71EF936B-7349-2F1B-7B49-82792DA4BC52</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_REZERWACJI" id="0FF2E66E-55A5-5688-1732-7B7AFC2E6697">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>0E4422CA-5EDE-B5F5-687C-75CF7AF368A3</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_REZERWACJI" id="A6A25E43-5A8D-86A4-44F1-B8ADEC38D3A9">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>5046E7DC-646A-BB39-FAC4-472C341088E6</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_LOTU" id="CF685AB7-0B03-CB6F-3C95-626D742FE5DA">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>0D14B802-295C-EBDE-DEC0-00AE59C56120</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LICZBA_UCZESTNIKOW" id="852F33E3-FF30-8E51-C082-9091B37D779B">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>653A2E37-110F-E6CE-6415-B70811DA97DC</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_REZERWACJI" id="759E578A-DBE3-364E-360A-386AF1F33E93">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>B07F76E0-4A4E-0C74-FB5C-F999B84628C0</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Klient_ID_KLIENTA" id="C77E0176-7462-2C95-7E38-8F033FA0A2B0">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>1B10169A-38DA-0C33-3D23-5984E3C30F11</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83B27828-FA0A-9979-FC57-6B6ADD859ED1" referredColumn="7F775179-6941-D14A-F0CB-6DAC8A3ADB65"/>
+</associations>
+</Column>
+<Column name="Lokalizacja_ID_LOKALIZACJI" id="6608FCA4-CDD2-26A2-DEC1-E21A24DB6A24">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>6774A8F3-1C3E-C7F3-461B-56FA1A7014FB</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D87B46B-00E0-F0A0-7C6E-F08C6A0F097B" referredColumn="A0A81A15-505C-8AD8-4BA6-296F110DF802"/>
+</associations>
+</Column>
+<Column name="Płatność_ID_PŁATNOŚCI" id="DC38A005-6DE1-3FE2-6643-4BBE25BD4DEB">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>E0B7A804-B23F-77A5-80CC-F40E0A4EBAFC</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="169E57CD-177E-1C7A-B7E8-670CC7A8D285" referredColumn="F42F4563-0F41-7D74-0D99-1DEDAF8C263C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A047919-1988-A230-E3B8-061965C4721D" name="Rezerwacja_PK">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>09DC77B8-9B42-A41B-1367-9D77E4C3EA33</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FF2E66E-55A5-5688-1732-7B7AFC2E6697"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BBA855A-F0C8-5DE6-C78B-A1096A8B3167" name="Rezerwacja__IDX">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4AD02BBC-DA3B-327B-642F-3D218E845E32</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="DC38A005-6DE1-3FE2-6643-4BBE25BD4DEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C62C5FC9-C00A-0F40-1AAB-A4E98C43738C" name="Rezerwacja_Klient_FK">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>2F9F8477-4437-53B9-DC09-270374D18C42</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C77E0176-7462-2C95-7E38-8F033FA0A2B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="827BD69F-D061-1C90-D907-F90182213407" name="Rezerwacja_Płatność_FK">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>4AD02BBC-DA3B-327B-642F-3D218E845E32</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC38A005-6DE1-3FE2-6643-4BBE25BD4DEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C971030-6F74-9058-B1A0-2F2CF260123C" name="Rezerwacja_Lokalizacja_FK">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>031F42D5-4BCD-B271-A477-10065FE2686D</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6608FCA4-CDD2-26A2-DEC1-E21A24DB6A24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

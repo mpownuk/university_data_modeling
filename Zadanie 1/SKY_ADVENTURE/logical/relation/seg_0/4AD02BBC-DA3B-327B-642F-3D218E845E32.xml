@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="4AD02BBC-DA3B-327B-642F-3D218E845E32">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 08:16:23 UTC</createdTime>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<engineerTo>
+<item key="89EAE634-7F2C-34B3-D2FA-FBDFE86EF217" value="true"/>
+</engineerTo>
+<sourcePk>09DC77B8-9B42-A41B-1367-9D77E4C3EA33</sourcePk>
+<targetPk>050F6C89-EDC3-9C2C-4AF3-EDAE2B7450C3</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Dotyczy rezerwacji</nameOnSource>
+<nameOnTarget>Opłata za</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>71EF936B-7349-2F1B-7B49-82792DA4BC52</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9E616820-E0C9-F44B-1650-2AEF7058B617</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

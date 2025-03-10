@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="9BA32D88-8A3D-0D08-9168-68A38407A9F7">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 08:22:13 UTC</createdTime>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<engineerTo>
+<item key="89EAE634-7F2C-34B3-D2FA-FBDFE86EF217" value="true"/>
+</engineerTo>
+<sourcePk>B0FDFBBE-0A67-55AC-A415-40B879B6B315</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Ma raport</nameOnSource>
+<nameOnTarget>Dotyczy balonu</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>28169BC0-1422-91B8-1257-805F18F30CE0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>564893BD-4761-CB9D-1F0B-5A2E696E48C3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

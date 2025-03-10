@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F7189A5-3BB5-F43F-DF14-6DF90196AE73" name="Płatność">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>9E616820-E0C9-F44B-1650-2AEF7058B617</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PŁATNOŚCI" id="F42F4563-0F41-7D74-0D99-1DEDAF8C263C">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>78993D6A-102A-380C-ECE8-A8F791D3225E</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KWOTA" id="7267068E-CAF2-5BBD-903E-B8381A19B827">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>4B91E293-4CDF-8E4F-3CAF-C9F6D41D1F32</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METODA_PŁATNOŚCI" id="80015B1F-8A16-0274-41B6-D222C948895A">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>08A65424-60BB-8F98-0D84-12210E213A82</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS_PŁATNOŚCI" id="AACCC0CF-32F4-C85B-4BF9-C095524D4493">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>74A08731-845C-C7AB-A25A-1D12AF25835E</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_PŁATNOŚCI" id="289D8D67-8DA7-A147-109F-B1D9B18CB39A">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>A8681216-A7DE-7B94-7975-548B94193C1E</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C318491F-2107-3D6A-94DB-0B4258B896DA" name="Płatność_PK">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>050F6C89-EDC3-9C2C-4AF3-EDAE2B7450C3</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F42F4563-0F41-7D74-0D99-1DEDAF8C263C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="83B27828-FA0A-9979-FC57-6B6ADD859ED1" containerWithKeyObject="0139E044-83FF-A7EC-CCFA-18CC20C677A2" localFKIndex="C62C5FC9-C00A-0F40-1AAB-A4E98C43738C" name="Rezerwacja_Klient_FK">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>2F9F8477-4437-53B9-DC09-270374D18C42</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<referredTableLongName>Klient</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>65ED2D1E-CAAB-8C5A-950B-882EDD43E54D</referredTableID>
+<keyObject>E2337B5E-C34A-C8F8-749C-CDB82DF010DF</keyObject>
+<referredKeyID>E2337B5E-C34A-C8F8-749C-CDB82DF010DF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_KLIENTA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

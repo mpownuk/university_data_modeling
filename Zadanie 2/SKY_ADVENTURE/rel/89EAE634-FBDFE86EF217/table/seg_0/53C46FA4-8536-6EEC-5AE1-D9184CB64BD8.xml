@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="53C46FA4-8536-6EEC-5AE1-D9184CB64BD8" name="Lot">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>BBEFDFD5-AACC-973C-4E57-D6B4BCED580C</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LOTU" id="5921DA11-723B-381D-0C03-574FD9CF84AC">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>DEEB99AA-98FC-9E34-E089-B2E7F1CDDB35</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rezerwacja_ID_REZERWACJI" id="777BE981-40FA-5368-DCDE-A225982DE77F">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>1C0A1997-70D9-0034-2589-ABFC7CBAB2AE</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97668930-CE0A-0F34-887F-2426FB0B8713" referredColumn="0FF2E66E-55A5-5688-1732-7B7AFC2E6697"/>
+</associations>
+</Column>
+<Column name="Balon_ID_BALONU" id="57B120E0-0649-CFD4-43B2-A0CC34F02BC6">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>2649520A-4416-E073-44B1-3531B8B21792</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55D3D21B-0E75-BE99-CB29-956CAAD46B76" referredColumn="51127A58-E2FD-CFFE-61CC-8EA4B5360625"/>
+</associations>
+</Column>
+<Column name="Pilot_ID_PILOTA" id="FF6C18BD-B1DF-2F06-6C99-9079FC410FD8">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>B8ACA994-280A-961A-F8FC-A5D469FB9C36</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="858AE998-A50D-0AB8-719C-9CEDBD42A580" referredColumn="1C4932DD-30CD-7858-46AF-EA17CB7B093A"/>
+</associations>
+</Column>
+<Column name="CZAS_TRWANIA" id="E42D9238-6532-6130-2BA5-75E892B41AB7">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>EB6D2E34-792A-FBD2-E2CB-41038C8FE786</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MAKSYMALNA_WYSOKOŚĆ" id="76BDEAC1-BBE9-37D7-EE48-DC450144A9AE">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>E681963A-EE26-6F6C-8336-0AC18A117366</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WARUNKI_POGODOWE" id="C272B2EE-A8BA-8104-F117-32F06D9A7982">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>1648DE92-144D-BD16-1FEA-4B19B6E60117</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DF6B6C02-32D8-DD6F-C3C9-D495DA674FA1" name="Lot_PK">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>B78790B6-00F1-9362-F09B-A170A7DE7FCB</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5921DA11-723B-381D-0C03-574FD9CF84AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C98733E-09EF-D294-5867-064D12822243" name="Lot_Pilot_FK">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>FBE499D8-2C6B-F4D6-E591-47EFD9A3585C</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF6C18BD-B1DF-2F06-6C99-9079FC410FD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="759E3BE3-6B31-20D8-3CDE-7D8066DFF290" name="Lot_Rezerwacja_FK">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>F51F2E23-CB20-C889-5D8F-9C3DF1110E93</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="777BE981-40FA-5368-DCDE-A225982DE77F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53FF9AB1-3D09-79DA-A3B4-60495F73FC94" name="Lot_Balon_FK">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>46E9E55C-A89F-1AAE-11CF-D66C926D12D3</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57B120E0-0649-CFD4-43B2-A0CC34F02BC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

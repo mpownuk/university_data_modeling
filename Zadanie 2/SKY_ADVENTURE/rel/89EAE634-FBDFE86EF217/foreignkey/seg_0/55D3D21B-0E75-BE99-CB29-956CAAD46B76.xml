@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="55D3D21B-0E75-BE99-CB29-956CAAD46B76" containerWithKeyObject="53C46FA4-8536-6EEC-5AE1-D9184CB64BD8" localFKIndex="53FF9AB1-3D09-79DA-A3B4-60495F73FC94" name="Lot_Balon_FK">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>46E9E55C-A89F-1AAE-11CF-D66C926D12D3</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<referredTableLongName>Balon</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8A3EF4E1-8EAF-80C9-CCAC-4D09EC3C07B2</referredTableID>
+<keyObject>06EE7A36-EBD8-B5C2-8A78-FA19C0759309</keyObject>
+<referredKeyID>06EE7A36-EBD8-B5C2-8A78-FA19C0759309</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_BALONU</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

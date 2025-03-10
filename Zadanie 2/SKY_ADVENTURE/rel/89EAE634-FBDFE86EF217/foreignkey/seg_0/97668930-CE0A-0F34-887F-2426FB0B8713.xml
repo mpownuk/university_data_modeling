@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="97668930-CE0A-0F34-887F-2426FB0B8713" containerWithKeyObject="53C46FA4-8536-6EEC-5AE1-D9184CB64BD8" localFKIndex="759E3BE3-6B31-20D8-3CDE-7D8066DFF290" name="Lot_Rezerwacja_FK">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>F51F2E23-CB20-C889-5D8F-9C3DF1110E93</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<referredTableLongName>Rezerwacja</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0139E044-83FF-A7EC-CCFA-18CC20C677A2</referredTableID>
+<keyObject>2A047919-1988-A230-E3B8-061965C4721D</keyObject>
+<referredKeyID>2A047919-1988-A230-E3B8-061965C4721D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_REZERWACJI</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

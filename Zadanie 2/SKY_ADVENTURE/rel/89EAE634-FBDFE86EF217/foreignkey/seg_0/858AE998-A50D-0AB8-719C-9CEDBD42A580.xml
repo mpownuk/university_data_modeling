@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="858AE998-A50D-0AB8-719C-9CEDBD42A580" containerWithKeyObject="53C46FA4-8536-6EEC-5AE1-D9184CB64BD8" localFKIndex="4C98733E-09EF-D294-5867-064D12822243" name="Lot_Pilot_FK">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>FBE499D8-2C6B-F4D6-E591-47EFD9A3585C</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<referredTableLongName>Pilot</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8085B590-3741-35EA-96F5-2F1127741788</referredTableID>
+<keyObject>082F634A-DC41-10E5-F572-5DC1333AADDA</keyObject>
+<referredKeyID>082F634A-DC41-10E5-F572-5DC1333AADDA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PILOTA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

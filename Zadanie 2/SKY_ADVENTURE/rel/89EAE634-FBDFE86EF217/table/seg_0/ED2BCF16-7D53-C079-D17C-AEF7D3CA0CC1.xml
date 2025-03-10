@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED2BCF16-7D53-C079-D17C-AEF7D3CA0CC1" name="Lokalizacja">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>C530FEBB-EFBA-6412-F646-BE9767AF0AC3</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_LOKALIZACJI" id="A0A81A15-505C-8AD8-4BA6-296F110DF802">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>45EDB198-62DE-F7ED-686F-72EF79C3A46B</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="F9DF0C25-3220-ECA8-9B67-A8D49B3ECEC8">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>BA16B0AB-4412-A51D-F136-7F8615782327</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="WSPÓŁRZĘDNE_GPS" id="A5A8C9B6-2C7E-68E4-89C6-010F450046EC">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>C67209DD-82F7-F35E-AE1E-71972977A555</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPIS" id="1F0AF55D-A4B4-F232-AE63-A25D729748A2">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>75514BE4-3474-66F3-1AE9-524492157C31</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F8B237E7-3F36-25D9-E0BC-AEC5CFB69DCF" name="Lokalizacja_PK">
+<createdBy>Laptop</createdBy>
+<createdTime>2025-03-10 09:26:56 UTC</createdTime>
+<generatorID>0A434A33-C4D1-3064-F43A-3BDC993A64AC</generatorID>
+<ownerDesignName>SKY_ADVENTURE</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0A81A15-505C-8AD8-4BA6-296F110DF802"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
